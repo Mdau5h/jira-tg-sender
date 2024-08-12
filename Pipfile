@@ -1,0 +1,16 @@
+[[source]]
+name = "pypi"
+url = "https://nexus-pypi.south.rt.ru/repository/pypi-all/simple/"
+verify_ssl = true
+
+[packages]
+fastapi = "*"
+python-telegram-bot = "*"
+uvicorn = "*"
+python-dotenv = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
+python_full_version = "3.11.*"
